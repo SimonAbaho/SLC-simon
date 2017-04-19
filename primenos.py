@@ -7,3 +7,6 @@ def prime_number(n):
         if n % 2 != 0 and n % 3 !=0:
             output.append(n)
     return n,output
+
+
+print(prime_number(100))
